@@ -1,0 +1,27 @@
+<%- include('partials/header') %>
+
+
+<div class="container-fluid register-div">
+  <h1 class="register-heading text-center">Register</h1>
+  
+  <div class="card register-card mx-auto">
+    <div class="card-body mx-auto register-card-body">
+      
+      <!-- Makes POST request to /register route -->
+        <form action="/register" method="POST">
+          <div class="form-group register-form">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="username" autocomplete="off">
+          </div>
+          <div class="form-group register-form">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" name="password">
+          </div>
+          <button type="submit" class="btn btn-dark w-100 register-btn">register</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <%- include('partials/header') %>

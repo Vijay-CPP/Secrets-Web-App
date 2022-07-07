@@ -1,0 +1,362 @@
+body{
+  background-color: rgb(198, 198, 198);
+}
+
+/* Home CSS Starts here*/
+
+.home-div{
+  width: 60vw;
+  margin-top: 20vh;
+}
+.home-heading{
+  margin-top: 1%;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.home-para{
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.home-btn{
+ margin: 1%;     
+}
+
+@media (max-width: 600px) {
+  .home-div{
+      width: 85vw;
+      margin-top: 18vh;
+  }
+  .home-heading{
+      margin-top: 3%;
+      font-size: 3.5rem;
+      font-weight: 400;
+  }
+  .home-para{
+      font-weight: 200;
+  }
+  .home-btn{
+      width: 55vw;
+      margin: 3%;
+      font-size: 1.5rem;
+      padding: 3%;     
+  }
+}
+
+@media (min-width: 1400px){
+  .home-div{
+      width: 85vw;
+      margin-top: 18vh;
+  }
+  .home-heading{
+      margin-top: 2%;
+      font-size: 4rem;
+      font-weight: 400;
+  }
+  .home-para{
+      margin-top: 1%;
+      font-size: 2rem;
+      font-weight: 200;
+  }
+  .home-btn{
+      font-size: 2rem;
+      margin: 1%;
+      padding: 1%;
+      width: 15%;     
+  }
+}
+
+/* Home CSS Ends here */
+
+/* Login Form Starts here */
+
+.login-div {
+  margin-top: 10vh;
+}
+
+.login-card {
+  width: 30vw;
+}
+
+.login-card-body {
+  width: 30vw;
+}
+
+.login-heading {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.login-form {
+  margin-top: 2%;
+}
+
+.login-btn {
+  margin-top: 3%;
+}
+
+
+@media (max-width: 600px) {
+    .login-div {
+        margin-top: 16vh;
+      }
+      
+      .login-card {
+        width: 90vw;
+      }
+      
+      .login-card-body {
+        width: 85vw;
+        font-size: 1.3rem;
+      }
+      
+      .login-heading {
+        margin-top: 1%;
+        margin-bottom: 5%;
+        font-size: 3.5rem;
+        font-weight: 400;
+      }
+      
+      .login-form {
+        margin-top: 6%;
+      }
+      
+      .login-btn {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        padding: 3%;
+      }
+      
+}
+
+@media (min-width: 1400px) {
+    .login-div {
+        margin-top: 10vh;
+      }
+      
+      .login-card {
+        width: 26vw;
+      }
+      
+      .login-card-body {
+        width: 25vw;
+      }
+      
+      .login-heading {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-size: 4rem;
+        font-weight: 400;
+      }
+      
+      .login-form {
+        margin-top: 2%;
+      }
+      
+      .login-btn {
+        margin-top: 3%;
+        margin-bottom: 1%;
+        padding: 1.5%;
+      }
+      
+}
+
+/* Login Form ends here */
+
+/* Register starts here  */
+
+.register-div {
+  margin-top: 10vh;
+}
+
+.register-card {
+  width: 30vw;
+}
+
+.register-card-body {
+  width: 30vw;
+}
+
+.register-heading {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.register-form {
+  margin-top: 2%;
+}
+
+.register-btn {
+  margin-top: 3%;
+}
+
+
+@media (max-width: 600px) {
+    .register-div {
+        margin-top: 16vh;
+      }
+      
+      .register-card {
+        width: 90vw;
+      }
+      
+      .register-card-body {
+        width: 85vw;
+        font-size: 1.3rem;
+      }
+      
+      .register-heading {
+        margin-top: 1%;
+        margin-bottom: 5%;
+        font-size: 3.5rem;
+        font-weight: 400;
+      }
+      
+      .register-form {
+        margin-top: 6%;
+      }
+      
+      .register-btn {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        padding: 3%;
+      }
+      
+}
+
+@media (min-width: 1400px) {
+    .register-div {
+        margin-top: 10vh;
+      }
+      
+      .register-card {
+        width: 26vw;
+      }
+      
+      .register-card-body {
+        width: 25vw;
+      }
+      
+      .register-heading {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-size: 4rem;
+        font-weight: 400;
+      }
+      
+      .register-form {
+        margin-top: 2%;
+      }
+      
+      .register-btn {
+        margin-top: 3%;
+        margin-bottom: 1%;
+        padding: 1.5%;
+      }
+      
+}
+
+/* Register ends here  */
+
+/* secrets css */
+.sec-head {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.secret {
+  text-align: left;
+  background-color: whitesmoke;
+  margin: 1% 15vw 1% 15vw;
+  padding: 1%;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+.sec-btn-div {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.sec-div {
+  width: 80vw;
+}
+
+@media (max-width: 600px) {
+  .sec-div {
+    width: 96vw;
+  }
+
+  .sec-head {
+    margin-top: 10%;
+    margin-bottom: 4%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .secret {
+    text-align: left;
+    background-color: whitesmoke;
+    margin: 4% 1vw 4% 1vw;
+    padding: 5%;
+    border-radius: 10px;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-size: 1.1rem;
+  }
+
+  .sec-btn-div {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+}
+
+/* Secrets ends */
+
+/* Submit starts */
+
+.sub-div{
+  width: 60vw;
+  text-align: center;
+}
+
+.sub-head{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.sub-btn{
+  margin: 2%;
+}
+
+.sub-input{
+  width: 50vw;
+  padding: 2%;
+}
+
+@media (max-width: 600px) {
+  .sub-div{
+    width: 95vw;
+    text-align: center;
+  }
+  
+  .sub-head{
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  
+  .sub-btn{
+    margin: 5%;
+    padding: 3%;
+  }
+  
+  .sub-input{
+    width: 80vw;
+    padding: 3%;
+  }
+}
+
+/* Submit ends */
