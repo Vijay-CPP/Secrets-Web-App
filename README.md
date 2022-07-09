@@ -1,5 +1,5 @@
 
-# NewsLetter Sign-Up 
+#  Secrets-Web-App
 
 A web app that lets the user share their thoughts and
 secrets anonymously.
